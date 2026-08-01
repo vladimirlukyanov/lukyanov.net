@@ -1,0 +1,34 @@
+---
+title: The Wind Rises
+authors:
+- vladimir-lukyanov
+description: "The Wind Rises is a poignant and beautifully crafted historical drama from Studio Ghibli, directed by Hayao Miyazaki. The film tells the fictionalized life story of Jiro Horikoshi, the engineer behind Japan’s famed WWII fighter plane, the Mitsubishi A6M Zero. Torn between his dream of creating beautiful aircraft and the moral weight of their use in war, Jiro navigates love, loss, and the turbulent winds of fate. With breathtaking animation and a melancholic yet hopeful tone, this semi-biographical tale reflects on ambition, artistry, and the cost of dreams."
+published_date: 2025-06-29
+categories:
+- anime
+tags:
+- art
+type: "post"
+featured : false
+image:
+  url : "./the-wind-rises.jpg"
+  alt : "The Wind Rises"
+related_posts :
+- 2025/howls-moving-castle
+- 2025/princess-mononoke
+- 2025/my-neighbor-totoro
+- 2025/kikis-delivery-service
+- 2025/porco-rosso
+- 2025/spirited-away
+---
+
+import { Picture } from 'astro:assets';
+
+import image from './the-wind-rises.jpg'
+
+<Picture
+  width={1140}
+  formats={['webp']}
+  breakpoints={[370, 640, 960, 1280]}
+  src={image} alt="The Wind Rises" />
+
